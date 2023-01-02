@@ -25,22 +25,12 @@
       </div>
    </div>
    <div class="note-area">
-      <div class="note">
-         <div class="note-header">
-            <h3 class="note-title">Note #1</h3>
-            <button class="delete-note">
-               <i class="fas fa-times icon"></i>
-            </button>
-         </div>
-         <div class="note-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet praesentium
-            assumenda quae, officia aspernatur error odit veniam maxime quasi et voluptas dolor, ut voluptatem vitae id
-            nisi inventore. Aut.</div>
-      </div>
+
    </div>
    <div class="note-panel">
       <h2>Add note</h2>
       <label for="category">Choose category</label>
-      <select id="category">
+      <select id="category" onchange="selectValue()">
          <option value="0" disabled selected>-choose category-</option>
          <option value="1">Shopping</option>
          <option value="2">Work</option>

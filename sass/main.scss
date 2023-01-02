@@ -53,6 +53,7 @@ body {
 	width: 240px;
 	background-color: rgb(255, 243, 0);
 	border: 1px solid black;
+	
 }
 .note-header {
 	display: flex;
@@ -70,6 +71,7 @@ body {
 .note-body {
 	padding: 2rem 1.5rem;
 	font-size: 1.4rem;
+	word-wrap: break-word;
 }
 .note-panel {
 	display: none;

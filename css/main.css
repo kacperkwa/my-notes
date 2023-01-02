@@ -101,6 +101,7 @@ body {
 .note-body {
   padding: 2rem 1.5rem;
   font-size: 1.4rem;
+  word-wrap: break-word;
 }
 
 .note-panel {
